@@ -11,3 +11,5 @@ df = spark.read.text("mnt/blobmount/insurance.csv")
 # COMMAND ----------
 
 df.show()
+
+df.show()
