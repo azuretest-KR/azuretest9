@@ -78,7 +78,7 @@
 			]
 		},
 		{
-			"name": "[concat(parameters('factoryName'), '/pipeline1')]",
+			"name": "[concat(parameters('factoryName'), '/on-premhdfstoazure')]",
 			"type": "Microsoft.DataFactory/factories/pipelines",
 			"apiVersion": "2018-06-01",
 			"properties": {
@@ -183,8 +183,8 @@
 				"typeProperties": {
 					"location": {
 						"type": "HdfsLocation",
-						"fileName": "BASE_TRAILER_TABLE.csv",
-						"folderPath": "projects/poshost/tmp"
+						"fileName": "unspsc.csv",
+						"folderPath": "tmp"
 					},
 					"columnDelimiter": ",",
 					"escapeChar": "\\",
