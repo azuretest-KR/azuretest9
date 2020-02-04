@@ -1,0 +1,15 @@
+{
+	"name": "azuretest9linkededservicehdfs",
+	"properties": {
+		"annotations": [],
+		"type": "Hdfs",
+		"typeProperties": {
+			"url": "http://u060posn801.kroger.com:50070/webhdfs/v1/",
+			"authenticationType": "Anonymous"
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntimehdfs",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
