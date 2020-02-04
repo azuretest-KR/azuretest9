@@ -11,6 +11,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'azuretest9linkedservice'"
 		},
+		"azuretest9linkededservicehdfs_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "http://u060posn801.kroger.com:50070/webhdfs/v1/"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -40,6 +44,9 @@
 					},
 					"azuretest9linkedservice_connectionString": {
 						"value": "[parameters('azuretest9linkedservice_connectionString')]"
+					},
+					"azuretest9linkededservicehdfs_properties_typeProperties_url": {
+						"value": "[parameters('azuretest9linkededservicehdfs_properties_typeProperties_url')]"
 					}
 				}
 			},

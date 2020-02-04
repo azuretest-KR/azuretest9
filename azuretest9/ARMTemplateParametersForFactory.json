@@ -7,6 +7,9 @@
 		},
 		"azuretest9linkedservice_connectionString": {
 			"value": ""
+		},
+		"azuretest9linkededservicehdfs_properties_typeProperties_url": {
+			"value": "http://u060posn801.kroger.com:50070/webhdfs/v1/"
 		}
 	}
 }
