@@ -1,0 +1,21 @@
+{
+	"name": "azureblobforhdfs",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "azuretest9linkedservice",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "azuretest9"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}

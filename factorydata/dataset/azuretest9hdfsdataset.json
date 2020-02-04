@@ -1,0 +1,23 @@
+{
+	"name": "azuretest9hdfsdataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "azuretest9linkededservicehdfs",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HdfsLocation",
+				"fileName": "BASE_TRAILER_TABLE.csv",
+				"folderPath": "projects/poshost/tmp"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
