@@ -1,0 +1,6 @@
+{
+	"name": "integrationRuntimehdfs",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
