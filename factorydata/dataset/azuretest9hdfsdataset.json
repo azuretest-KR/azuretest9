@@ -10,8 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "HdfsLocation",
-				"fileName": "BASE_TRAILER_TABLE.csv",
-				"folderPath": "projects/poshost/tmp"
+				"fileName": "unspsc.csv",
+				"folderPath": "tmp"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
