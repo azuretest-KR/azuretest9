@@ -1,6 +1,0 @@
-{
-	"name": "azuretest9runtime",
-	"properties": {
-		"type": "SelfHosted"
-	}
-}
