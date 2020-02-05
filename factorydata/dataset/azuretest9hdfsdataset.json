@@ -9,9 +9,7 @@
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
-				"type": "HdfsLocation",
-				"fileName": "unspsc.csv",
-				"folderPath": "tmp"
+				"type": "HdfsLocation"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
